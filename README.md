@@ -1,1 +1,0 @@
-# yoga-tirta.github.io
