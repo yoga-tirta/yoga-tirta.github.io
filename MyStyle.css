@@ -29,8 +29,7 @@ hr {
 }
 
 .navbar-dark {
-    --ease: all 300ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
 }
 
 /* End Navbar */
@@ -203,20 +202,17 @@ hr {
     background-color: #ff9900;
     border: none;
     color: white;
-    --ease: all 300ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
 }
 
 .card-skill:hover h6 {
     color: white !important;
-    --ease: all 300ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
 }
 
 .card-skill:hover i {
     color: white !important;
-    --ease: all 1000ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
 }
 
 .card-skill p {
@@ -231,7 +227,6 @@ hr {
 .skill h2 {
     color: #ff9900;
 }
-
 /* End Skill */
 
 /* Experience */
@@ -254,11 +249,27 @@ hr {
 
 #experience p {
     margin-top: -5px;
-    font-size: 0.8rem;
     margin-left: 1.2rem;
 }
 
+.experience-card {
+    background-color: white;
+    border: 1px solid #8667de;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: white;
+    background-color: #ff9900;
+}
+
 .experience-item img {
+    height: 90%;
+}
+
+#experience img {
+    margin-left: 10px;
+    width: 90%;
     height: 90%;
 }
 
@@ -289,20 +300,34 @@ hr {
 
 #project .card:hover {
     background-color: #ff9900;
-    --ease: all 300ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
 }
 
 #project .card:hover p {
     color: white !important;
-    --ease: all 300ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
 }
 
 #project .card:hover .btn-sm-2 {
     background-color: #8667de;
-    --ease: all 300ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
+}
+
+#project .card:hover .project-name {
+    background-color: #8667de;
+    transition: all 300ms ease;
+}
+
+.project-name {
+    display: inline-block;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 4px 8px;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 4px;
 }
 
 .card {
@@ -334,14 +359,12 @@ hr {
     box-shadow: 0 0 5px rgba(117, 0, 184, 0.5);
     color: white;
     background-color: #8667de;
-    --ease: all 300ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
 }
 
 #project .card:hover {
     box-shadow: 0 5px 15px rgba(99, 99, 99, 0.3);
-    --ease: all 300ms ease;
-    transition: var(--ease);
+    transition: all 300ms ease;
 }
 /* End Project */
 

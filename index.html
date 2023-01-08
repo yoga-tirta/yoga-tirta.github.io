@@ -32,7 +32,7 @@
         <section id="navigasi">
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container">
-                    <a class="navbar-brand fw-bold" href="#">
+                    <a class="navbar-brand fw-bold" href="index.html">
                         <img src="img/logo.png" alt="" width="35" class="me-2" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -144,8 +144,8 @@
                         <div class="row justify-content-center g-3">
                             <div class="col-lg-2 col-md-4 col-6 my-2">
                                 <div class="card-skill text-center pt-2 px-1">
-                                    <img src="img/skill/js.png" alt="" width="100" />
-                                    <h6>JavaScript</h6>
+                                    <img src="img/skill/php.png" alt="" width="100" />
+                                    <h6>PHP</h6>
                                     <p>Programming Language</p>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -156,10 +156,9 @@
                             </div>
                             <div class="col-lg-2 col-md-4 col-6 my-2">
                                 <div class="card-skill text-center pt-2 px-1">
-                                    <img src="img/skill/php.png" alt="" width="100" />
-                                    <h6>PHP</h6>
+                                    <img src="img/skill/js.png" alt="" width="100" />
+                                    <h6>JavaScript</h6>
                                     <p>Programming Language</p>
-                                    <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -206,6 +205,7 @@
                                     <img src="img/skill/sql.png" alt="" width="100" />
                                     <h6>MySQL</h6>
                                     <p>Database Organizer</p>
+                                    <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -277,73 +277,124 @@
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="row">
-                                <div class="col-12 bg-white border p-2 rounded shadow-sm mb-4">
-                                    <div class="row experience-item">
-                                        <div class="col-4 my-auto">
-                                            <img src="img/Me 6.png" alt="" />
-                                        </div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-pills mb-3 nav-justified col-md-6 col-lg-8" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Education</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Organization</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Expertise</button>
+                            </li>
+                        </ul>
 
-                                        <div class="col my-auto">
-                                            <h6 class="lh-1">IT Support</h6>
-                                            <p class="lh-1">
-                                                Universal Com<br />
-                                                Magang
-                                            </p>
-                                            <div class="d-flex">
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                        </div>
+                        <!-- Tab panes -->
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h2 style="color: #8667de">My Educational Experience</h2>
+                                        <br />
                                     </div>
                                 </div>
 
-                                <div class="col-12 bg-white border p-2 rounded shadow-sm mb-4">
-                                    <div class="row experience-item">
-                                        <div class="col-4 my-auto">
-                                            <img src="img/Me 6.png" alt="" />
-                                        </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="row">
+                                            <div class="col-12 bg-white border p-2 rounded shadow-sm mb-4">
+                                                <div class="row experience-item">
+                                                    <div class="col-4 my-auto">
+                                                        <img src="img/experience/jetis.png" alt="" />
+                                                    </div>
+                                                    <div class="col my-auto">
+                                                        <h6>SMK Negeri 1 Jetis Mojokerto</h6>
+                                                        <p class="lh-1">Jurusan Multimedia</p>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                        <div class="col my-auto">
-                                            <h6 class="lh-1">Designer</h6>
-                                            <p class="lh-1">
-                                                JLP Group<br />
-                                                1 Years
-                                            </p>
-                                            <div class="d-flex">
-                                                <i class="fa-solid fa-star"></i>
+                                            <div class="col-12 bg-white border p-2 rounded shadow-sm mb-4">
+                                                <div class="row experience-item">
+                                                    <div class="col-4 my-auto">
+                                                        <img src="img/experience/utm.png" alt="" />
+                                                    </div>
+                                                    <div class="col my-auto">
+                                                        <h6>Universitas Trunojoyo Madura</h6>
+                                                        <p class="lh-1">Program Studi Teknik Informatika</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div class="col-12 bg-white border p-2 rounded shadow-sm mb-4">
-                                    <div class="row experience-item">
-                                        <div class="col-4 my-auto">
-                                            <img src="img/Me 6.png" alt="" />
-                                        </div>
-
-                                        <div class="col my-auto">
-                                            <h6 class="lh-1">Visual Officer</h6>
-                                            <p class="lh-1">
-                                                Pt. Griya Pratama <br />
-                                                2 Years
-                                            </p>
-                                            <div class="d-flex">
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
+                                    <div class="col-1">
+                                        <div class="divider mx-auto"></div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-12 my-auto mt-md-5 mt-lg-0">
+                                        <div class="img-thumbnail">
+                                            <img src="img/IMG_7412.JPG" alt="" width="100%" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-1">
-                            <div class="divider mx-auto"></div>
-                        </div>
-                        <div class="col-lg-7 col-md-12 my-auto mt-md-5 mt-lg-0">
-                            <div class="img-thumbnail">
-                                <img src="img/IMG_7412.JPG" alt="" width="100%" />
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h2 style="color: #8667de">My Organization Experience</h2>
+                                        <br />
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-md-6 col-lg-3">
+                                        <div class="row">
+                                            <div class="col-12 bg-white border p-2 rounded shadow-sm mb-4">
+                                                <div class="row experience-item">
+                                                    <div class="col-4 my-auto">
+                                                        <img src="img/experience/eecom.png" alt="" />
+                                                    </div>
+                                                    <div class="col my-auto">
+                                                        <h6>UKM Engineering English Community</h6>
+                                                        <p class="lh-1">Staff Human Resource Development 2021</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 bg-white border p-2 rounded shadow-sm mb-4">
+                                                <div class="row experience-item">
+                                                    <div class="col-4 my-auto">
+                                                        <img src="img/experience/eecom.png" alt="" />
+                                                    </div>
+                                                    <div class="col my-auto">
+                                                        <h6>UKM Engineering English Community</h6>
+                                                        <p class="lh-1">Vice General Leader 2022</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-1">
+                                        <div class="divider mx-auto"></div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-12 my-auto mt-md-5 mt-lg-0">
+                                        <div class="img-thumbnail">
+                                            <img src="img/IMG_7412.JPG" alt="" width="100%" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h2 style="color: #8667de">Work & Achievement</h2>
+                                        <br />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -372,6 +423,10 @@
                                     <h5 class="card-title">Smart-Raport</h5>
                                     <p class="card-text mt-1"><strong>Smart-Raport</strong> adalah aplikasi pembagian nilai rapot SMK secara online. Terdapat 2 aktor yaitu siswa dan guru, yang keduanya memiliki role yang berbeda juga.</p>
                                     <a href="https://github.com/yoga-tirta/smart-raport" class="btn btn-sm-2">Github</a>
+                                    <!-- <div class="text-center">
+                                        <span class="project-name">PHP</span>
+                                        <span class="project-name">MySQL</span>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
